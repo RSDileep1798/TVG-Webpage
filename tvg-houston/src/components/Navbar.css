@@ -1,0 +1,27 @@
+/* Navbar styles are handled in styles.css */
+/* This file is kept for component-specific overrides if needed */
+
+.btn-cart {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--color-primary, #0a4d3c);
+  color: #ffffff;
+  box-shadow: 0 6px 16px rgba(10, 77, 60, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    background 0.15s ease;
+  text-decoration: none;
+}
+
+.btn-cart:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(10, 77, 60, 0.35);
+  background: var(--color-primary-strong, #0f6f54);
+}
